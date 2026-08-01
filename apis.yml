@@ -1,8 +1,23 @@
 aid: solveai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/solveai.png
 name: SolveAI
-description: 'SolveAI is a company surfaced as a portfolio company of accel, gv, northzone and added to
-  the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'SolveAI is an enterprise AI platform that helps organizations turn complex business
+  problems into custom AI applications, providing tooling to align stakeholders and then build,
+  deploy, and maintain AI solutions across the enterprise. The company is backed by Accel, GV, and
+  Northzone. As of this profile SolveAI publishes a marketing website at solve.ai (a static single-page
+  app on S3/CloudFront) with no public developer API, OpenAPI specification, SDK, CLI, webhook surface,
+  or MCP server; this entry captures the verifiable identity and domain-security posture only.'
 url: https://raw.githubusercontent.com/api-evangelist/solveai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ai
+- Artificial Intelligence
+- Enterprise AI
+- AI Applications
+- AI Platform
+- Machine Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +45,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/solveai-domain-security.yml
 - type: Website
   url: https://solve.ai/
+- type: LLMsTxt
+  url: llms/solveai-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
