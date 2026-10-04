@@ -47,7 +47,7 @@ tags:
 - Enterprise AI
 - AI Applications
 - AI Platform
-- Machine-Learning
+- Machine Learning
 tags_raw:
 - Company
 - Ai
@@ -56,6 +56,7 @@ tags_raw:
 - AI Applications
 - AI Platform
 - Machine Learning
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
